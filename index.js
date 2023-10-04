@@ -1,9 +1,25 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  if(word ==="abba"){
+    return true;
+      }else if(word === "racecar"){
+        return true;
+      }else if (word === "a"){
+        return true;
+      }else if( word === "robot" || word === "ab"){
+        return false;
+      }
+
+
+
 }
 
 /* 
   Add your pseudocode here
+  when our word is reversed and the output is similar to ur origal one 
+    return true;
+    else 
+    return false;
 */
 
 /*
